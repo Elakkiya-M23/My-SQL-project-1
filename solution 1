@@ -1,0 +1,23 @@
+use bme;
+show tables;
+create table bme.student1(
+SI varchar(40),
+Name varchar(40),
+Rollno varchar(40),
+dept varchar(40),
+collegename varchar(40),
+place varchar(40)
+);
+select * from bme;
+select * from bme.student1;
+insert into bme.student1 values
+("1", "shobi", "49", "BME", "MEC", "salem"),
+("2", "Madhu", "10", "BME", "MEC", "salem"),
+("3", "Vicky", "57", "BME", "MEC", "salem"),
+("4", "Siva", "50", "BME", "MEC", "salem"),
+("5", "Sabi", "43", "BME", "MEC", "salem"),
+("6", "Jeeva", "11", "BME", "MEC", "salem"),
+("7", "Mani", "12", "BME", "MEC", "salem"),
+("8", "Vishu", "13", "BME", "MEC", "salem"),
+("9", "Swetha", "20", "BME", "MEC", "salem"),
+("elakkiya", "elakkiya", "elakkiya", "elakkiya", "elakkiya", "elakkiya");
